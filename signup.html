@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: "Poppins", sans-serif;
+        }
+
+
+        .body {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background: white;
+            background: turquoise;
+        }
+
+        .login-form {
+            width: 380px;
+            border-radius: 5px;
+            background: white;
+        }
+
+        .login-form .title {
+            line-height: 80px;
+            font-weight: 500;
+            font-size: 35px;
+            color: white;
+            background-color: #16a085;
+            display: flex;
+            border-radius: 5px 5px 0 0;
+            justify-content: center;
+            align-items: center;
+        }
+
+        form {
+            padding: 30px 25px 25px 25px;
+        }
+
+        .row {
+            /* background-color: red; */
+            height: 45px;
+            margin-bottom: 15px;
+            position: relative;
+        }
+
+        .row label {
+            position: absolute;
+            background-color: #16a085;
+            color: white;
+            width: 47px;
+            height: 100%;
+            font-size: 25px;
+            border: 1px solid #16a085;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 5px 0 0 5px;
+
+        }
+
+        .row input {
+            height: 100%;
+            width: 100%;
+            border-radius: 5px;
+            border: 1px solid rgb(199, 199, 199);
+            padding-left: 60px;
+            outline: none;
+        }
+
+        input:focus {
+            border-color: #16a085;
+            box-shadow: inset 0 0 2px 2px rgba(26, 188, 156, 0.25);
+        }
+
+        .forgot {
+            margin-bottom: 0;
+        }
+
+
+        .forgot a {
+            text-decoration: none;
+            color: turquoise;
+        }
+
+        button {
+            width: 100%;
+            height: 45px;
+            background: #16a085;
+            border: none;
+            color: white;
+            font-size: 20px;
+            border-radius: 5px;
+        }
+
+        .not-a-member {
+            /* background-color: red; */
+            display: flex;
+            justify-content: center;
+            margin-bottom: 0;
+            height: auto;
+        }
+
+        .not-a-member a {
+            text-decoration: none;
+            color: turquoise
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        button:hover {
+            background-color: #128b73;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="body">
+
+        <div class="login-form">
+            <div class="title"><span>Registration Page</span></div>
+
+            <form id="registrationForm" action="/signup" method="post">
+                <div class="row">
+                    <label for="username"><i class='bx bxs-user'></i></label>
+                    <input type="text" id="username" placeholder="Username" name="username" required>
+                </div>
+                <div class="row">
+                    <label for="password"><i class='bx bxs-lock'></i></label>
+                    <input type="password" id="password" placeholder="Password" name="password" required>
+                </div>
+
+                <button type="submit">Register</button>
+                <div class="row not-a-member">
+                    <span>Already a member? <a href="/login">Login</a></span>
+                </div>
+            </form>
+        </div>
+    </div>
+
+</body>
+
+</html>

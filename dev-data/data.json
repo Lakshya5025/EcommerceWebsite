@@ -1,0 +1,222 @@
+[
+  {
+    "id": 0,
+    "productName": "Carrot",
+    "image": "https://images.unsplash.com/photo-1598170845058-32b9d6a5da37?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "from": "Local farms",
+    "nutrients": ["Vitamin A", "Vitamin K", "Potassium"],
+    "quantity": "Per kilogram",
+    "price": 2.5,
+    "organic": false,
+    "description": "Carrots are crunchy, tasty root vegetables. They are rich in beta-carotene, which is converted into vitamin A in the body."
+  },
+  {
+    "id": 1,
+    "productName": "Broccoli",
+    "image": "https://images.unsplash.com/photo-1587351177732-5b0739d1bd44?q=80&w=1854&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "from": "Local farms",
+    "nutrients": ["Vitamin C", "Vitamin K", "Folate"],
+    "quantity": "Per kilogram",
+    "price": 3.0,
+    "organic": true,
+    "description": "Broccoli is a nutrient-rich vegetable, known for its high vitamin C content. It's a great source of antioxidants and fiber."
+  },
+  {
+    "id": 2,
+    "productName": "Spinach",
+    "image": "https://images.unsplash.com/photo-1578283326173-fbb0f83b59b2?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "from": "Local farms",
+    "nutrients": ["Iron", "Vitamin K", "Vitamin A"],
+    "quantity": "Per bunch",
+    "price": 2.8,
+    "organic": true,
+    "description": "Spinach is a leafy green vegetable packed with vitamins and minerals. It's known for its high iron content and versatility in cooking."
+  },
+  {
+    "id": 3,
+    "productName": "Tomato",
+    "image": "https://images.unsplash.com/photo-1582284540020-8acbe03f4924?q=80&w=1935&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "from": "Local farms",
+    "nutrients": ["Vitamin C", "Potassium", "Lycopene"],
+    "quantity": "Per kilogram",
+    "price": 2.2,
+    "organic": false,
+    "description": "Tomatoes are juicy and flavorful fruits often used as vegetables in cooking. They are rich in vitamin C and lycopene, which may have health benefits."
+  },
+  {
+    "id": 4,
+    "productName": "Bell Pepper",
+    "image": "https://images.unsplash.com/photo-1592548868664-f8b4e4b1cfb7?q=80&w=1891&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "from": "Local farms",
+    "nutrients": ["Vitamin C", "Vitamin A", "Fiber"],
+    "quantity": "Per kilogram",
+    "price": 3.5,
+    "organic": false,
+    "description": "Bell peppers come in various colors and are rich in vitamins and antioxidants. They add crunch and flavor to salads, stir-fries, and other dishes."
+  },
+  {
+    "id": 5,
+    "productName": "Cucumber",
+    "image": "https://plus.unsplash.com/premium_photo-1675731118289-51dd7342984e?q=80&w=1854&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "from": "Local farms",
+    "nutrients": ["Vitamin K", "Potassium", "Magnesium"],
+    "quantity": "Per kilogram",
+    "price": 1.8,
+    "organic": true,
+    "description": "Cucumbers are refreshing and hydrating vegetables with a high water content. They are low in calories and a good source of vitamins and minerals."
+  },
+  {
+    "id": 6,
+    "productName": "Potato",
+    "image": "https://images.unsplash.com/photo-1590165482129-1b8b27698780?q=80&w=1854&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "from": "Local farms",
+    "nutrients": ["Vitamin C", "Potassium", "Fiber"],
+    "quantity": "Per kilogram",
+    "price": 1.9,
+    "organic": false,
+    "description": "Potatoes are starchy tubers that are versatile and nutritious. They are a good source of vitamin C, potassium, and fiber."
+  },
+  {
+    "id": 7,
+    "productName": "Onion",
+    "image": "https://images.unsplash.com/photo-1618512496248-a07fe83aa8cb?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "from": "Local farms",
+    "nutrients": ["Vitamin C", "Fiber", "Folate"],
+    "quantity": "Per kilogram",
+    "price": 2.0,
+    "organic": true,
+    "description": "Onions are pungent and flavorful vegetables used in various cuisines worldwide. They are rich in antioxidants and have anti-inflammatory properties."
+  },
+  {
+    "id": 8,
+    "productName": "Lettuce",
+    "image": "https://plus.unsplash.com/premium_photo-1701964643739-a98fa3c9837c?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "from": "Local farms",
+    "nutrients": ["Vitamin K", "Vitamin A", "Folate"],
+    "quantity": "Per head",
+    "price": 2.3,
+    "organic": true,
+    "description": "Lettuce is a crispy and refreshing leafy green vegetable. It's low in calories and a good source of vitamins and minerals."
+  },
+  {
+    "id": 9,
+    "productName": "Zucchini",
+    "image": "https://images.unsplash.com/photo-1543280207-5f62a4c20be2?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "from": "Local farms",
+    "nutrients": ["Vitamin C", "Potassium", "Fiber"],
+    "quantity": "Per kilogram",
+    "price": 2.6,
+    "organic": false,
+    "description": "Zucchini, also known as courgette, is a summer squash with a mild flavor. It's low in calories and a good source of vitamins and minerals."
+  },
+  {
+    "id": 10,
+    "productName": "Green Beans",
+    "image": "https://images.unsplash.com/photo-1567375698348-5d9d5ae99de0?q=80&w=1935&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "from": "Local farms",
+    "nutrients": ["Vitamin C", "Fiber", "Folate"],
+    "quantity": "Per kilogram",
+    "price": 3.2,
+    "organic": true,
+    "description": "Green beans, also known as string beans, are crisp and tender vegetables. They are rich in vitamins and minerals, particularly vitamin C and folate."
+  },
+  {
+    "id": 11,
+    "productName": "Cauliflower",
+    "image": "https://images.unsplash.com/photo-1566842600175-97dca489844f?q=80&w=1964&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "from": "Local farms",
+    "nutrients": ["Vitamin C", "Vitamin K", "Folate"],
+    "quantity": "Per head",
+    "price": 2.7,
+    "organic": true,
+    "description": "Cauliflower is a versatile vegetable that can be roasted, mashed, or used in various dishes. It's low in calories and high in vitamins and minerals."
+  },
+  {
+    "id": 12,
+    "productName": "Sweet Potato",
+    "image": "https://images.unsplash.com/photo-1570723735746-c9bd51bd7c40?q=80&w=1935&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "from": "Local farms",
+    "nutrients": ["Vitamin A", "Vitamin C", "Fiber"],
+    "quantity": "Per kilogram",
+    "price": 2.4,
+    "organic": false,
+    "description": "Sweet potatoes are nutritious and delicious root vegetables. They are high in vitamin A, vitamin C, and fiber, making them a healthy choice."
+  },
+  {
+    "id": 13,
+    "productName": "Beetroot",
+    "image": "https://images.unsplash.com/photo-1527790806964-dfa3c2c7e032?q=80&w=1893&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "from": "Local farms",
+    "nutrients": ["Folate", "Potassium", "Iron"],
+    "quantity": "Per kilogram",
+    "price": 2.9,
+    "organic": true,
+    "description": "Beetroots, commonly known as beets, are sweet and earthy root vegetables. They are high in folate, potassium, and iron, and are often used in salads, soups, and as a natural food coloring."
+  },
+  {
+    "id": 14,
+    "productName": "Kale",
+    "image": "https://images.unsplash.com/photo-1624300477446-d379e923eca8?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "from": "Local farms",
+    "nutrients": ["Vitamin K", "Vitamin C", "Calcium"],
+    "quantity": "Per bunch",
+    "price": 3.3,
+    "organic": true,
+    "description": "Kale is a nutrient-dense leafy green vegetable. It's high in vitamins K and C, as well as minerals like calcium and iron. Kale is often used in salads, smoothies, and stir-fries."
+  },
+  {
+    "id": 15,
+    "productName": "Cabbage",
+    "image": "https://plus.unsplash.com/premium_photo-1675731118699-5b19e3556f88?q=80&w=1854&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "from": "Local farms",
+    "nutrients": ["Vitamin C", "Fiber", "Vitamin K"],
+    "quantity": "Per head",
+    "price": 2.1,
+    "organic": false,
+    "description": "Cabbage is a cruciferous vegetable with a mild, slightly sweet flavor. It's rich in vitamin C and fiber, and can be enjoyed raw in salads or cooked in various dishes."
+  },
+  {
+    "id": 16,
+    "productName": "Radish",
+    "image": "https://images.unsplash.com/photo-1585369496137-6b539c324adc?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "from": "Local farms",
+    "nutrients": ["Vitamin C", "Fiber", "Potassium"],
+    "quantity": "Per bunch",
+    "price": 2.6,
+    "organic": true,
+    "description": "Radishes are crisp, peppery root vegetables commonly used in salads and as a garnish. They are low in calories and a good source of vitamin C and fiber."
+  },
+  {
+    "id": 17,
+    "productName": "Celery",
+    "image": "https://images.unsplash.com/photo-1580391564590-aeca65c5e2d3?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "from": "Local farms",
+    "nutrients": ["Vitamin K", "Folate", "Potassium"],
+    "quantity": "Per bunch",
+    "price": 2.4,
+    "organic": false,
+    "description": "Celery is a crunchy, low-calorie vegetable with a mild flavor. It's rich in vitamins K and folate, and is often enjoyed raw as a snack or added to soups and salads."
+  },
+  {
+    "id": 18,
+    "productName": "Asparagus",
+    "image": "https://images.unsplash.com/photo-1629875235163-2e52306e4018?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "from": "Local farms",
+    "nutrients": ["Vitamin K", "Folate", "Vitamin A"],
+    "quantity": "Per bunch",
+    "price": 3.8,
+    "organic": true,
+    "description": "Asparagus is a delicious spring vegetable known for its distinct flavor. It's high in vitamins K and A, as well as folate, and is often grilled, roasted, or steamed."
+  },
+  {
+    "id": 19,
+    "productName": "Mushroom",
+    "image": "https://images.unsplash.com/photo-1572782132197-79d85a8d16de?q=80&w=1935&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "from": "Local farms",
+    "nutrients": ["Vitamin D", "B vitamins", "Selenium"],
+    "quantity": "Per kilogram",
+    "price": 4.0,
+    "organic": false,
+    "description": "Mushrooms are fungi with a unique savory flavor and meaty texture. They are low in calories and fat, and are a good source of vitamin D, B vitamins, and minerals like selenium."
+  }
+]
